@@ -8,7 +8,8 @@ We recommend creating an `mcp` folder inside your home directory to collect and 
 
     mkdir ~/mcp 
     cd ~/mcp
-    git clone
+    git clone https://github.com/ijonas/castaway.git
+    cd castaway
     uv venv
     source ./.venv/bin/activate
     uv pip install -e
